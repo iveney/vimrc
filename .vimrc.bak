@@ -242,3 +242,6 @@ set dictionary=/usr/share/dict/words
 " cpp tags
 set tags+=~/.vim/tags/cpp
 
+" Tabular mapping
+" Align the text to `='
+map <leader>t<=> :Tab/=<cr>
